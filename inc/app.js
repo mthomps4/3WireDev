@@ -1,6 +1,6 @@
 var app = angular.module('3wirebuild',["ngRoute"]);
 
-app.config(function($routeProvider, $locationProvider){
+app.config(function($routeProvider){
   $routeProvider
   .when('/', {
     templateUrl: '../nav/about.php',
@@ -20,7 +20,7 @@ app.config(function($routeProvider, $locationProvider){
   })
   .otherwise({redirectTo: '/'});
 
-  $locationProvider.html5Mode(true);
+  // $locationProvider.html5Mode(true); $locationProvider
 
 });
 

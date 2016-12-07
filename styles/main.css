@@ -209,10 +209,37 @@ footer{
   display:flex;
   justify-content: center;
   align-items: center;
+  border-top: solid 1px #555;
 }
 
 footer p{
   opacity:.6;
   margin:0;
   margin-left: 1em;
+}
+
+/***** CONTACT PAGE *****/
+.Contact{
+ margin-bottom:2em;
+}
+
+.contactWrap{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top:2em;
+}
+
+.contactIcon{
+  width:50px;
+  height:50px;
+  display:flex;
+  margin: 0 auto;
+}
+
+.contactDesc, .contactDesc:active{
+  margin-top:0;
+  color:black;
 }
