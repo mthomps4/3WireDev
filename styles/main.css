@@ -1,0 +1,210 @@
+body{
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+  background-color:#ECEFF1;
+  width:100%;
+}
+
+a, ul, ol{
+  text-decoration: none;
+  list-style: none;
+}
+
+/*****MOBILE NAVIGATION ******/
+#main-header{
+  margin:0;
+  padding:0;
+}
+
+#menuButton{
+  background-color: #00BCD4; /*#0D47A1*/
+  color:white;
+  width:175px;
+  height:80px;
+  cursor: pointer;
+  border:none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  transform: rotate(-45deg);
+  margin-top:15px;
+  position:absolute;;
+  top:-45px;
+  left:-75px;
+  padding-top:3em;
+
+
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(136,136,136,1);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(136,136,136,1);
+  box-shadow: 0px 0px 7px 0px rgba(136,136,136,1);
+}
+
+#menuButton:focus, #menuButton:active{
+  border:none;
+  outline:none;
+}
+
+#mobile-nav{
+  	display:flex;
+  	flex-direction:column;
+  	justify-content:center;
+    position:absolute;
+    width: 100%;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    background:rgba(0, 0, 0, 0.75);
+    z-index: 2;
+}
+
+.mobileNavItem{
+  color:white;
+  text-align: center;
+  padding:1em;
+  font-weight: 400;
+}
+
+.active{
+  background-color:#00BCD4;/*thatblue color*/
+}
+
+header{
+  position: fixed;
+  width:100%;
+  background-color:#ECEFF1;
+  height:150px;
+  z-index: 2;
+}
+
+.wrapper{
+  position:relative;
+  top:150px;
+}
+
+/****MOBILE HEADER ******/
+#title{
+  margin:0 auto;
+  margin-top:1em;
+  margin-bottom:.3em;
+  font-weight:300;
+  opacity:.83;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#tag-line{
+  margin:0 auto;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+
+/***** About Page Styles ****/
+.PageTitle{
+  display: flex;
+  justify-content: center;
+  margin:0;
+  padding:1em;
+
+  color: white;
+  font-weight: 400;
+
+  background: rgba(236,239,241,1);
+background: -moz-linear-gradient(top, rgba(236,239,241,1) 0%, rgba(0,188,212,1) 25%, rgba(0,188,212,1) 50%, rgba(0,188,212,1) 75%, rgba(55,71,79,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(236,239,241,1)), color-stop(25%, rgba(0,188,212,1)), color-stop(50%, rgba(0,188,212,1)), color-stop(75%, rgba(0,188,212,1)), color-stop(100%, rgba(55,71,79,1)));
+background: -webkit-linear-gradient(top, rgba(236,239,241,1) 0%, rgba(0,188,212,1) 25%, rgba(0,188,212,1) 50%, rgba(0,188,212,1) 75%, rgba(55,71,79,1) 100%);
+background: -o-linear-gradient(top, rgba(236,239,241,1) 0%, rgba(0,188,212,1) 25%, rgba(0,188,212,1) 50%, rgba(0,188,212,1) 75%, rgba(55,71,79,1) 100%);
+background: -ms-linear-gradient(top, rgba(236,239,241,1) 0%, rgba(0,188,212,1) 25%, rgba(0,188,212,1) 50%, rgba(0,188,212,1) 75%, rgba(55,71,79,1) 100%);
+background: linear-gradient(to bottom, rgba(236,239,241,1) 0%, rgba(0,188,212,1) 25%, rgba(0,188,212,1) 50%, rgba(0,188,212,1) 75%, rgba(55,71,79,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eceff1', endColorstr='#37474f', GradientType=0 );
+}
+
+#AboutMe{
+  margin:0;
+  padding:0;
+  padding-top:20px;
+  background:#37474F;
+}
+
+.profile{
+  border-radius: 50% 50%;
+  width:40%;
+  border:solid 4px #bbb;
+  display:flex;
+  justify-content: center;
+  margin:auto;
+}
+
+.bio{
+  padding-top:20px;
+  width:90%;
+  margin:0 auto;
+  margin-bottom:1.5em;
+}
+
+.bio p{
+  margin:0;
+  color:white;
+  opacity:.83;
+}
+
+#SkillsWrap{
+  background-color:#00BCD4;/*thatblue color*/
+  background-color:#00ACC1;/*600Cyan color*/
+  color:white;
+}
+
+#Skills{
+  width:90%;
+  margin:0 auto;
+  padding-top:1.5em;
+  padding-bottom:2em;
+}
+
+.skillsCaption{
+  font-weight: 500;
+  font-size: 1.4em;
+  text-align: center;
+  margin-bottom:0;
+}
+
+.skillsList{
+  margin:0;
+  text-align: center;
+  opacity:.85;
+}
+
+.downloadFlex{
+  display:flex;
+  height:50px;
+  background-color:black;
+}
+
+.ResumeDownload{
+ color:white;
+}
+
+.LinkedInResumeLink{
+  color:white;
+}
+
+footer{
+  position: relative;
+  top:150px;
+  height:50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p{
+  opacity:.6;
+  margin:0;
+  margin-left: 1em;
+}
