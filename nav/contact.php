@@ -1,5 +1,5 @@
 <div class="wrapper">
-<h2 class="PageTitle">Projects</h2>
+<h2 class="PageTitle">Contact</h2>
 </div>
 
 
