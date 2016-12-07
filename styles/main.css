@@ -71,6 +71,7 @@ a, ul, ol{
 
 .active, .active:visited{
   color:#00BCD4;/*thatblue color*/
+  font-weight: 500;
 }
 
 header{
