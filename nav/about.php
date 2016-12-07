@@ -34,7 +34,10 @@
 
 <div class="downloadFlex">
   <a href="" target="_blank" class="ResumeDownload">Download Full Resume</a>
-  <a href="" target="_blank" class="LinkedInResumeLink"></a>
+  <div class="aboutLinks">
+    <a href="" target="_blank" class="aboutGithubLink"></a>
+    <a href="" target="_blank" class="LinkedInResumeLink"></a>
+  </div>
 </div>
 
 

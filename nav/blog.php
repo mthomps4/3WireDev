@@ -11,6 +11,7 @@
 ?>
 
 <div class="wrapper">
+  <div id=Blog>
   <h2 class="PageTitle">Blog</h2>
 
   <div id="BlogContainer">
@@ -27,4 +28,5 @@
     </div>
   </div>
 
+</div>
 </div>
