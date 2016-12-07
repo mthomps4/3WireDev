@@ -1,6 +1,6 @@
 var app = angular.module('3wirebuild',["ngRoute"]);
 
-app.config(function($routeProvider){
+app.config( ['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
   $routeProvider
   .when('/', {
     templateUrl: '../nav/about.php',
@@ -20,15 +20,14 @@ app.config(function($routeProvider){
   })
   .otherwise({redirectTo: '/'});
 
-  // $locationProvider.html5Mode(true); $locationProvider
-
-});
-
+  // Add HTML5 History API support
+  // $locationProvider.html5Mode(true);
+  }
+]);
 
 app.directive("mainHeader", function(){
   return{
       templateUrl: "../templates/header.php",
-      controller: 'NavController'
   };
 });
 
@@ -37,3 +36,10 @@ app.directive("mainFooter", function(){
       templateUrl: "templates/footer.php"
   };
 });
+
+app.controller('active', function($scope, $location){
+        $scope.isActive = function (viewLocation) {
+        var active = (viewLocation === $location.path());
+        return active;
+        };
+    });
