@@ -21,7 +21,7 @@ app.config( ['$routeProvider', '$locationProvider', function($routeProvider, $lo
   .otherwise({redirectTo: '/'});
 
   // Add HTML5 History API support
-  $locationProvider.html5Mode(true);
+  // $locationProvider.html5Mode(true);
   }
 ]);
 
