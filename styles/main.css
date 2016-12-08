@@ -348,6 +348,8 @@ footer p{
   width: 90%;
   margin: 0 auto;
   padding: 0;
+  margin-bottom:1em;
+
 
   display:flex;
   flex-direction: column;
@@ -442,4 +444,57 @@ footer p{
 
 .githubTag{
   opacity:.5;
+}
+
+@media (min-width:450px){
+  .project{
+    width:60%;
+  }
+}
+
+@media (min-width:550px){
+  .project{
+    width: 50%;
+  }
+  .postContainer{
+    max-width:300px;
+  }
+}
+
+@media (min-width:650px){
+  .project{
+    width: 40%;
+  }
+}
+
+@media (min-width:750px){
+  .project{
+    width: 35%;
+  }
+}
+
+@media (min-width:850px){
+  .HighlightContainer{
+    flex-direction: row;
+    align-items: inherit;
+    margin-bottom:2em;
+  }
+  .project{
+    margin:10px;
+    width: 30%;
+  }
+}
+
+@media (min-width:1080px){
+  .project{
+    width: 28%;
+    margin:0 auto;
+  }
+}
+
+@media (min-width:1200px){
+  .project{
+    width: 25%;
+    max-width:300px
+  }
 }

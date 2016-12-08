@@ -10,7 +10,7 @@
       <div class="projectBox">
         <div class="codeButtons">
           <a href="https://github.com/mthomps4/3WireChatApp" target="_blank" class="TheCode">The Code </a>
-          <a href="" target="_blank" class="Demo">Demo </a>
+          <a href="http://www.chat.3wirebuild.com" target="_blank" class="Demo">Demo </a>
         </div>
         <p class="projectTitle">3WireChat</p>
         <p class="projectLang">NodeJS, Websockets, Passport Local </p>
@@ -23,7 +23,7 @@
         <div class="projectBox">
           <div class="codeButtons">
             <a href="https://github.com/mthomps4/KocherasBourbonTrail" target="_blank" class="TheCode">The Code </a>
-            <a href="" target="_blank" class="Demo">Demo </a>
+            <a href="http://www.bourbon.3wirebuild.com" target="_blank" class="Demo">Demo </a>
           </div>
           <p class="projectTitle">Bourbon Trail Portfolio App</p>
           <p class="projectLang">PHP, MySQL, Sessions </p>
