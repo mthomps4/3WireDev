@@ -459,6 +459,35 @@ footer p{
   .postContainer{
     max-width:300px;
   }
+
+  .profile{
+    width:30%;
+    display:block;
+    margin:20px;
+    margin-left:5%;
+    float:left;
+    max-width:200px;
+  }
+
+  #Skills{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    justify-content: center;
+    max-width:1050px;
+  }
+
+  .skillFlex{
+    flex-grow:1;
+    width:28%;
+    margin:10px;
+    max-width:250px;
+  }
+
+  .aboutLinks{
+    width:30%;
+    max-width:180px;
+  }
 }
 
 @media (min-width:650px){

@@ -11,24 +11,29 @@
     <p>At the end of the day it’s nice to “unplug”. When I’m not behind a computer, you will normally find me around a workbench. With a passion for traditional woodworking I continue to learn and hone my craft by focusing on hand tools and furniture making. My goal is to keep trade skills from becoming another chapter in the history book. Learning and sharing what I can, you can follow the process<a href="/#/blog"> on my blog</a> or follow me on Instagram <a href="https://www.instagram.com/3wirebuild/" target="_blank">@3WireBuild</a>.</p>
   </div>
 
-
 <h2 class="PageTitle">Skills</h2>
 <div id="SkillsWrap">
 <div id="Skills">
+<div class="skillFlex">
   <p class="skillsCaption">Developer</p>
   <p class="skillsList">HTML5, CSS3, SASS, Bootstrap, JavaScript, JQuery, ASP.NET, C#, NodeJS, PHP, SQL, LINQ, MongoDB, Entity, Angular(1.5), Express, Wordpress, Unix Console, Git Bash, GitHub, Slack</p>
-
+</div>
+<div class="skillFlex">
   <p class="skillsCaption">Designer</p>
   <p class="skillsList">Adobe Creative Cloud, Illustrator, Photoshop, Indesign, Adobe Lightroom, Google Sketchup, Set design, Furniture Design, Lighting Technician</p>
-
+</div>
+<div class="skillFlex">
   <p class="skillsCaption">Learning</p>
   <p class="skillsList">React, Ember, Laravel, Unity3D, SVG Animation</p>
-
+</div>
+<div class="skillFlex">
   <p class="skillsCaption">Hobbies</p>
   <p class="skillsList">Traditional Woodworker, Furniture Maker, Builder, Electronic Tinkerer, Mini PC Builder, Computer Gaming, Netflix Being Watching</p>
-
+</div>
+<div class="skillFlex">
   <p class ="skillsCaption">Interests</p>
   <p class="skillsList">Biotech, Robotics, Superhero Tech, Archery, Japanese Joinery, Tool Making</p>
+  </div>
 </div>
 </div>
 
