@@ -285,6 +285,23 @@ footer p{
   margin-bottom:3em;
 }
 
+.blogInstaFlex{
+  display:flex;
+  margin:0 auto;
+  justify-content: center;
+  margin-top:1em;
+}
+
+.blogInsta{
+  margin:0;
+}
+
+.blogInstaTag{
+    color: white;
+    opacity: .83;
+    padding-left:10px;
+}
+
 .postContainer{
   width:90%;
   margin:0 auto;
@@ -402,7 +419,7 @@ footer p{
   font-weight: 300;
   text-align: center;
   margin:0;
-  padding:0; 
+  padding:0;
 }
 
 .projectDesc{

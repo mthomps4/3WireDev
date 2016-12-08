@@ -14,17 +14,31 @@
   <div id=Blog>
   <h2 class="PageTitle">Blog</h2>
 
+  <a href="https://www.instagram.com/3wirebuild/" target="_blank" class="blogInstaFlex">
+    <img class="contactIcon blogInsta" src="../styles/Social/instagram.png">
+    <p class="blogInstaTag">@3WireBuild</p>
+  </a>
+
   <div id="BlogContainer">
     <div id="WireBlog">
+
       <?php
+
+      $posts = array();
         foreach($rsp_obj['photos']['photo'] as $post){
+          array_push($posts, $post);
+        }
+
+        for($i=0; $i<10; $i++){
           echo "<div class='postContainer'>";
-            echo "<img class='postImage' src='" . $post['url_o'] . "' alt='Image Post' />";
-            echo "<p class='postTitle'>" . $post['title'] . "</p>";
-            echo "<p class='postDate'>" . Date("m/d/y", $post['dateupload']) . "</p>";
+            echo "<img class='postImage' src='" . $posts[$i]['url_o'] . "' alt='Image Post' />";
+            echo "<p class='postTitle'>" . $posts[$i]['title'] . "</p>";
+            echo "<p class='postDate'>" . Date("m/d/y", $posts[$i]['dateupload']) . "</p>";
           echo "</div>";
         }
+
        ?>
+
     </div>
   </div>
 
