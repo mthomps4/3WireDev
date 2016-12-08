@@ -38,7 +38,7 @@
 </div>
 
 <div class="downloadFlex">
-  <a href="../MThompsonResume.pdf" download class="ResumeDownload">Download Full Resume</a>
+  <a href="../MThompsonResume.pdf" target="_blank" download class="ResumeDownload">Download Full Resume</a>
   <div class="aboutLinks">
     <a href="https://github.com/mthomps4/" target="_blank" class="aboutGithubLink"></a>
     <a href="https://www.linkedin.com/in/mthomps4" target="_blank" class="LinkedInResumeLink"></a>
